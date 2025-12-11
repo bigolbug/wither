@@ -27,10 +27,10 @@ core.register_abm(
     nodenames = {"moremesecons_playerkiller:playerkiller"},
     -- Apply `action` function to these nodes.
     -- `group:groupname` can also be used here.
-    interval = 1,
+    interval = 30,
     -- Operation interval in seconds
 
-    chance = 1,
+    chance = 10,
     -- Probability of triggering `action` per-node per-interval is 1.0 / chance (integers only)
 
     min_y = -32768,
