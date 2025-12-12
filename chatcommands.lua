@@ -46,6 +46,7 @@ core.register_chatcommand("wither", {
 			afk.set_enabled(false)
 			return true, "Wither disabled."
 		else
+			core.chat_send_player(name,"Wither Status: (ABM:" .. wither.abm..") (Mod: ".. wither.enabled") (Nuke: ".. tostring(wither.nuke)..")")
 			return false, "Usage: /wither <on|off>"
 		end
 	end,
