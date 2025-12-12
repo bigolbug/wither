@@ -64,8 +64,6 @@ function wither.debug(text)
     end
 end
 
-
-
 wither.set_enabled = function(state)
     if state then
         wither.metadata:set_int("enabled",1)

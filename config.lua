@@ -15,8 +15,6 @@ else
     wither.abm = 0
 end
 
-
-
 -- Swap nodes (lifespan is in minetest days)
 wither.nodes = {}
-wither.nodes["moremesecons_playerkiller:playerkiller"] = {swapnode = "default:dirt",lifespan = 1}
+wither.nodes["moremesecons_playerkiller:playerkiller"] = {swapnode = "default:dirt",lifespan = 6}
